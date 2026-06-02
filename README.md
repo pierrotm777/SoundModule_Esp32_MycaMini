@@ -1,6 +1,6 @@
 # SoundModule_Esp32_MycaMini
 This new board is based on the [Teensy 4.0 sound card project](https://github.com/pierrotm777/SoundModule_Teensy4.0-version).  
-The software behaves the same way, but the board is based on an ESP32 S3 Mini, which is 10 times cheaper than the Teensy 4.0.  
+The software behaves the same way, but the board is based on an ESP32 S3 Mini, which is 10 times cheaper than the Teensy 4.0 (around 4€).  
 The board is also much smaller and will therefore fit more easily into small RC vehicles.  
 
 ## Credits
@@ -31,7 +31,7 @@ This module can:
 - 5 RGB LEDs (multicolored).  
 - Controllable via touchscreen or 10-button keypad.  
 - 3 new USER specific modes for Myca Club.  
-- 3W audio I2S/amplifier (useful for small boats or testing).  
+- 3W audio I2S/amplifier MAX98357 (useful for small boats or testing).  
 - Controllable via a receiver with PWM, CPPM, SBUS (Frsky or others), IBUS (Flysky), SRXL (Multiplex), SUMD (Graupner), JETI, or CRSF (ExpressLRS/TBS) output.  
 - ESC output management to adjust engine sound (adjustable acceleration and deceleration).  
 - 4 alarms, one of which is reversible to detect the absence of liquid, for example.  
