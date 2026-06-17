@@ -37,7 +37,6 @@ Ces boutons ont donc une double fonctionnalité suivant que le switch FOG soit a
 ## RANDOM
 Lit les fichiers se trouvant dans le répertoire /RANDOM/X_NOM.wav attribue ces fichier aux sons RANDOM jusqu'à 8 sons disponibles.  
 Compte le nombres de fichiers disponible pour adapter la fonction random aux nombres de sons 
-"Nombre de sons aléatoires disponibles : 4"  
 ```
 RANDOM_1 = /RANDOM/1_MOUETTE.WAV  
 RANDOM_2 = /RANDOM/2_MOUETTE2.WAV  
