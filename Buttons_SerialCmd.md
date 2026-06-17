@@ -7,7 +7,7 @@ In this command mode, the keyboard can be of type:
 - DIY (homemade) keyboard with assembly of 10 push buttons and resistors.  
 - Kingpad keyboard from Pistenking.  
 - Steuerpad from Kraftwerk.  
--  Virtual touch keyboard (LUA script) for FrSky Ethos transmitters (X20 or X20S).  
+- Virtual touch keyboard (LUA script) for FrSky Ethos transmitters (X20 or X20S).  
 - Virtual touch keyboard (LUA script) for EdgeTx transmitters (LCD Color screen).  
 
 When using a physical or virtual KingPad keyboard from Pistenking or a physical Steuerpad keyboard from Kraftwerk, only 8 keys out of the 12 available are used by the Sound Module.
@@ -43,6 +43,6 @@ T and RETURN and C and RETURN for start a new calibration.
 B and RETURN will you return the new buttons values.  
 
 Note:  
-All modified parameters are automatically saved in the EEPROM memory of Teensy.  
+All modified parameters are automatically saved in the PREFERENCES memory of Esp32.  
 This means that the next time you power it on, the new settings will not be lost.  
 The user manual provides and details all the commands supported by the Sound Module.  
