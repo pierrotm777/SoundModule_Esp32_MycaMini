@@ -1,5 +1,5 @@
 # SoundModule_Esp32_MycaMini
-This new board is based on the [Teensy 4.0 sound card project](https://github.com/pierrotm777/https://github.com/pierrotm777/SoundModule_Esp32_MycaMini).  
+This new board is based on the [Teensy 4.0 sound card project](https://github.com/pierrotm777/SoundModule_Teensy4.0-version).  
 The software behaves the same way, but the board is based on an ESP32 S3 Mini 8Mb PSRAM, which is 3 times cheaper than the Esp32 4.0 (around 15€).  
 The board is also much smaller and will therefore fit more easily into small RC vehicles.  
 
@@ -16,7 +16,7 @@ Based on a croby-b's code idea and powered by Rc-Navy libraries.
 1. [Sd Card Structure](SD_Card_Structure.md)
 
 ## Introduction
-For build this module we use the [ESP32 S3 EspBoatAudio library]().   
+For build this module we use the [ESP32 S3 EspBoatAudio library by croby_b](https://github.com/pierrotm777/MyArduinoLibraries/tree/main/All_Other_Libs/EspBoatAudio).   
 
 This Sound Module is primarily intended for model boats, trucks, tractors, tanks, and backhoe loaders, but can also be configured for aircraft.  
 
@@ -25,18 +25,18 @@ This module can:
 - use any type of engine sound (more than 10 are already available).  
 - 4 simultaneous sounds in addition to the engine sound.  
 - 16 pre-programmable sounds.  
-- 4 pre-programmable random sounds.  
-- volume control via the touchscreen, a button on the transmitter, or two buttons on a 10-button keypad.  
+- 8 pre-programmable random sounds.  
+- volume control by the touchscreen, a button on the transmitter, or two buttons on a 10-button keypad.  
 - Smoke system management (tank + air pump).  
 - 5 RGB LEDs (multicolored).  
-- Controllable via touchscreen or 10-button keypad.  
-- 3 new USER specific modes for the Myca Club of Cestas [📍 44.746233, -0.698128](https://www.google.com/maps?q=44.746233,-0.698128).   
+- Controllable by touchscreen or 10-button keypad.  
+- 3 new USER specific (PWM only) modes for the Myca Club of Cestas [📍 44.746233, -0.698128](https://www.google.com/maps?q=44.746233,-0.698128).   
 - 3W audio I2S/amplifier MAX98357 (useful for small boats or testing).  
-- Controllable via a receiver with PWM, CPPM, SBUS (Frsky or others), IBUS (Flysky), SRXL (Multiplex), SUMD (Graupner), JETI, or CRSF (ExpressLRS/TBS) output.  
+- Controllable by a receiver with PWM, CPPM, SBUS (Frsky or others), IBUS (Flysky), SRXL (Multiplex), SUMD (Graupner), JETI, or CRSF (ExpressLRS/TBS) output.  
 - ESC output management to adjust engine sound (adjustable acceleration and deceleration).  
-- 4 alarms, one of which is reversible to detect the absence of liquid, for example.  
+- 2 alarms, one of which is reversible to detect the absence of liquid, for example.  
 - Telemetry feedback of the Esp32's temperature as well as the motor battery voltage for Frsky (Hub or S-Port), Flysky (Ibus), ExpressLRS/TBS (CRSF).  
-- Module management/configuration via its serial interface.  
+- Module management/configuration by its serial interface.  
 - Module configuration backup on an SD card.  
 
 SD Card:  
@@ -46,9 +46,16 @@ Power Supply:
 The module is powered by only a 5V 3A module.
 It is possible to enable or disable the module's power supply using a relay or other solution via the On/Off connector.  
 
+## ESP32 S3 8Mb PCB
 A custom printed circuit board has been created. We are currently at version v1.0, visible above.   
-![](https://github.com/pierrotm777/https://github.com/pierrotm777/SoundModule_Esp32_MycaMini/blob/main/ampli18w.jpg)  
-
+![Esp32 S3 schematic](https://github.com/pierrotm777/SoundModule_Esp32_MycaMini/blob/main/Hardware/PCB1.0/Sound_Myca_Waveshare8MB.pdf).  
+[![PDF](https://img.shields.io/badge/PDF-Manuel-red)](/Hardware/PCB1.0/Sound_Myca_Waveshare8MB.pdf)
+<table cellspacing=0>
+  <tr>
+    <td align=center width=400><a href="..."><img src="/Hardware/PCB1.0/Sound_Myca_Waveshare8MB_Top.png" border="0" name="submit" title="Sound Module" alt="Sound Module"/></a><br><b>Top</td>
+    <td align=center width=400><a href="..."><img src="/Hardware/PCB1.0/Sound_Myca_Waveshare8MB_Bot.png" border="0" name="submit" title="Sound Module" alt="Sound Module"/></a><br><b>Bottom</td>
+  </tr>
+</table>
 
 Creating a new engine sound:  
 Simply retrieve the desired engine sound to create a startup sound, an operating sound, and a shutdown sound.  
