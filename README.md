@@ -128,8 +128,10 @@ Two sound motors systems are possibles:
 	- A start file, ex:DSL-LTL_STA.  
 	- An idle file, ex:DSL-LTL_IDL.  
 	- A stop file, ex:DSL-LTL_STP.  
-  - BEIER:
+  - BEIER:  
 	The module can list all sound's motor found into the SD card [ENGINES Beier format](/SD_ESP32/ENGINES/BEIER).  
+	Each Beier sound motor use 5 sounds named like that:  
+	![](Beier_SoundMotor.png).  
 
 Creating a new engine sound:  
 Simply retrieve the desired engine sound to create a startup sound, an operating sound, and a shutdown sound.  
