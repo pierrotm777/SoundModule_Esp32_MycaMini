@@ -9,8 +9,8 @@ Based on a croby-b's code idea and powered by Rc-Navy libraries.
 ## Outline of the documentation
 1. Introduction (this page)
 1. [Xany Compatibility](Xany_Compatibility.md)
-1. [Xany Serial Commands](Xany_Mode.md)
-1. [Buttons Serial Commands](Buttons_Mode.md)
+1. [Xany Serial Commands](Full_SerialCmd.md)
+1. [Buttons Serial Commands](Buttons_SerialCmd.md)
 1. [USER Serial Commands](Users_Mode.md)
 1. [Wiring Sound module](Wiring_Module.md)
 1. [Sd Card Structure](SD_Card_Structure.md)
