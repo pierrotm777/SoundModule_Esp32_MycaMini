@@ -30,7 +30,7 @@ This module can:
 - Smoke system management (tank + air pump).  
 - 5 RGB LEDs (multicolored).  
 - Controllable via touchscreen or 10-button keypad.  
-- 3 new USER specific modes for [Myca Club](GPS : 44° 44’ 46.44N 00° 41’ 53.26O).  
+- 3 new USER specific modes for the Myca Club of Cestas [📍 44.746233, -0.698128](https://www.google.com/maps?q=44.746233,-0.698128).   
 - 3W audio I2S/amplifier MAX98357 (useful for small boats or testing).  
 - Controllable via a receiver with PWM, CPPM, SBUS (Frsky or others), IBUS (Flysky), SRXL (Multiplex), SUMD (Graupner), JETI, or CRSF (ExpressLRS/TBS) output.  
 - ESC output management to adjust engine sound (adjustable acceleration and deceleration).  
