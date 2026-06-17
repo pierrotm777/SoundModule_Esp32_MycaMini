@@ -1,6 +1,6 @@
 # SoundModule_Esp32_MycaMini
-This new board is based on the [Teensy 4.0 sound card project](https://github.com/pierrotm777/SoundModule_Teensy4.0-version).  
-The software behaves the same way, but the board is based on an ESP32 S3 Mini, which is 10 times cheaper than the Teensy 4.0 (around 4€).  
+This new board is based on the [Esp32 4.0 sound card project](https://github.com/pierrotm777/https://github.com/pierrotm777/SoundModule_Esp32_MycaMini).  
+The software behaves the same way, but the board is based on an ESP32 S3 Mini 8Mb PSRAM, which is 3 times cheaper than the Esp32 4.0 (around 15€).  
 The board is also much smaller and will therefore fit more easily into small RC vehicles.  
 
 ## Credits
@@ -30,12 +30,12 @@ This module can:
 - Smoke system management (tank + air pump).  
 - 5 RGB LEDs (multicolored).  
 - Controllable via touchscreen or 10-button keypad.  
-- 3 new USER specific modes for Myca Club.  
+- 3 new USER specific modes for [Myca Club](GPS : 44° 44’ 46.44N 00° 41’ 53.26O).  
 - 3W audio I2S/amplifier MAX98357 (useful for small boats or testing).  
 - Controllable via a receiver with PWM, CPPM, SBUS (Frsky or others), IBUS (Flysky), SRXL (Multiplex), SUMD (Graupner), JETI, or CRSF (ExpressLRS/TBS) output.  
 - ESC output management to adjust engine sound (adjustable acceleration and deceleration).  
 - 4 alarms, one of which is reversible to detect the absence of liquid, for example.  
-- Telemetry feedback of the Teensy's temperature as well as the motor battery voltage for Frsky (Hub or S-Port), Flysky (Ibus), ExpressLRS/TBS (CRSF).  
+- Telemetry feedback of the Esp32's temperature as well as the motor battery voltage for Frsky (Hub or S-Port), Flysky (Ibus), ExpressLRS/TBS (CRSF).  
 - Module management/configuration via its serial interface.  
 - Module configuration backup on an SD card.  
 
@@ -47,7 +47,7 @@ The module is powered by only a 5V 3A module.
 It is possible to enable or disable the module's power supply using a relay or other solution via the On/Off connector.  
 
 A custom printed circuit board has been created. We are currently at version v1.0, visible above.   
-![](https://github.com/pierrotm777/SoundModule_Teensy4.0-version/blob/main/ampli18w.jpg)  
+![](https://github.com/pierrotm777/https://github.com/pierrotm777/SoundModule_Esp32_MycaMini/blob/main/ampli18w.jpg)  
 
 
 Creating a new engine sound:  
@@ -65,8 +65,8 @@ Three modes are possibles:
 - The module read all WAV sounds from a SD card (from /ENGINES folder).  
 
 You can find more informations on the Sound Module:
-- [french manual](https://github.com/pierrotm777/SoundModule_Teensy4.0-version/blob/main/Module_Son_Manuel_Utilisateur.pdf).  
-- [english manual (TODO)](https://github.com/pierrotm777/SoundModule_Teensy4.0-version/blob/main/Module_Son_Manuel_Utilisateur.pdf).    
+- [french manual](https://github.com/pierrotm777/https://github.com/pierrotm777/SoundModule_Esp32_MycaMini/blob/main/Module_Son_Manuel_Utilisateur.pdf).  
+- [english manual (TODO)](https://github.com/pierrotm777/https://github.com/pierrotm777/SoundModule_Esp32_MycaMini/blob/main/Module_Son_Manuel_Utilisateur.pdf).    
 
 
 ### X-Any mode
@@ -98,7 +98,7 @@ The buttons 9 and 10 up or down the volume's sounds.
 
 <table cellspacing=0>
   <tr>
-    <td align=center width=400><a href="https://github.com/pierrotm777/SoundModule_Teensy4.0-version/blob/main/10ButtonsKeyboard.md"><img src="https://github.com/pierrotm777/SoundModule_Teensy4.0-version/blob/main/10buttons_sch.png" border="0" name="submit" title="Sound Module" alt="Sound Module"/></a><br><b>KeyBoard 10 buttons</td>
+    <td align=center width=400><a href="https://github.com/pierrotm777/https://github.com/pierrotm777/SoundModule_Esp32_MycaMini/blob/main/10ButtonsKeyboard.md"><img src="https://github.com/pierrotm777/https://github.com/pierrotm777/SoundModule_Esp32_MycaMini/blob/main/10buttons_sch.png" border="0" name="submit" title="Sound Module" alt="Sound Module"/></a><br><b>KeyBoard 10 buttons</td>
   </tr>
 </table>
 
@@ -117,55 +117,49 @@ Depending on the receiver used, it's possible to connect the sound module in dif
 ## PCB versions
 <table cellspacing=0>
   <tr>
-    <td align=center width=400><a href="https://github.com/pierrotm777/SoundModule_Teensy4.0-version/tree/main/Hardware/V1.0/README.md"><img src="https://github.com/pierrotm777/SoundModule_Teensy4.0-version/blob/main/Hardware/V1.0/Sound_Myca_Teensy-Top3d_v1.0.png" border="0" name="submit" title="Sound Module" alt="Sound Module v1.0"/></a><br><b>V1.0 (deprecated)</td>
-    <td align=center width=400><a href="https://github.com/pierrotm777/SoundModule_Teensy4.0-version/tree/main/Hardware/V1.1/README.md"><img src="https://github.com/pierrotm777/SoundModule_Teensy4.0-version/blob/main/Hardware/V1.1/Sound_Myca_Teensy_Top_v1.1.png" border="0" name="submit" title="Sound Module" alt="Sound Module v1.1"/></a><br><b>V1.1 (deprecated)</td>
-    <td align=center width=400><a href="https://github.com/pierrotm777/SoundModule_Teensy4.0-version/tree/main/Hardware/V1.2/README.md"><img src="https://github.com/pierrotm777/SoundModule_Teensy4.0-version/blob/main/Hardware/V1.2/Sound_Myca_Teensy_Top_v1.2.png" border="0" name="submit" title="Sound Module" alt="Sound Module v1.2"/></a><br><b>V1.2</td>
-	<td align=center width=400><a href="https://github.com/pierrotm777/SoundModule_Teensy4.0-version/tree/main/Hardware/V1.3/README.md"><img src="https://github.com/pierrotm777/SoundModule_Teensy4.0-version/blob/main/Hardware/V1.3/Sound_Myca_Teensy_Top.jpg" border="0" name="submit" title="Sound Module" alt="Sound Module v1.3"/></a><br><b>V1.3</td>
+    <td align=center width=400><a href="https://github.com/pierrotm777/https://github.com/pierrotm777/SoundModule_Esp32_MycaMini/tree/main/Hardware/V1.0/README.md"><img src="https://github.com/pierrotm777/https://github.com/pierrotm777/SoundModule_Esp32_MycaMini/blob/main/Hardware/V1.0/Sound_Myca_Esp32-Top3d_v1.0.png" border="0" name="submit" title="Sound Module" alt="Sound Module v1.0"/></a><br><b>V1.0</td>
   </tr>
 </table>
 
 ## WAV Sounds
-Play **16-bit PCM 44100Hz Stereo** WAV audio samples at variable playback rates on Teensy.  
+Play **16-bit PCM 44100Hz Stereo** WAV audio samples at variable playback rates on Esp32.  
 - Note : this library only works with signed 16-bit integer samples. Floating point samples will not play.  
 - For best performance, use SDXC UHS 30MB/sec Application Performance Class 2 (A2) class micro SD-card.  
 
 ### Sounds Motor
 It's possible to select several motors.  
-The module can list all sound's motor found into the SD card [ENGINES folder](https://github.com/pierrotm777/SoundModule_Teensy4.0-version/tree/main/SD_Wav_Files/ENGINES).  
-**ENG.LIST = DSL-LTL, DSL-V12, VAPEUR, DSL-OLD, DSL-120, DSL-TURB, DSL-TUG, SCAN-V12, DSL-BIG, DSL-180, DIESEL7, SCAN-250, CAT-C32, BF109**  
-Each motor use:  
-- A start file, ex:DSL-LTL_STA.  
-- An idle file, ex:DSL-LTL_IDL.  
-- A stop file, ex:DSL-LTL_STP.  
+Two sound motors systems are possibles:
+  - CLASSIC:  
+	The module can list all sound's motor found into the SD card [ENGINES folder](https://github.com/pierrotm777/https://github.com/pierrotm777/SoundModule_Esp32_MycaMini/tree/main/SD_Wav_Files/ENGINES).  
+	**ENG.LIST = DSL-LTL, DSL-V12, VAPEUR, DSL-OLD, DSL-120, DSL-TURB, DSL-TUG, SCAN-V12, DSL-BIG, DSL-180, DIESEL7, SCAN-250, CAT-C32, BF109**  
+	Each motor use:  
+	- A start file, ex:DSL-LTL_STA.  
+	- An idle file, ex:DSL-LTL_IDL.  
+	- A stop file, ex:DSL-LTL_STP.  
+  - BEIER:
+	The module can list all sound's motor found into the SD card [ENGINES folder](https://github.com/pierrotm777/https://github.com/pierrotm777/SoundModule_Esp32_MycaMini/tree/main/SD_Wav_Files/ENGINES/BEIER).  
 
 It's possible to add new motor's sounds.  
 The better way, for me, is to use [Audacity](https://www.audacityteam.org) for cut all sound find and save it as 16bits PCM 44100Hz wav file.  
 
 ### All other sounds
 All other other sounds will have to be copied under the main path.  
-See our sounds [here](https://github.com/pierrotm777/SoundModule_Teensy4.0-version/tree/main/SD_Wav_Files).  
-You can change the **USER1.wav to USER15.wav by your own sounds**.  
-USER16.wav is used as alarms sound.  
+See our sounds [here](https://github.com/pierrotm777/https://github.com/pierrotm777/SoundModule_Esp32_MycaMini/tree/main/SD ESP32_PIERRE).  
+You can change the **USER1.wav to USER16.wav by your own sounds**.  
 
 ## Upload a firmware
 Only one firmware for all features:
 
-
-# New features
-
 ## Wifi feature
-With the v1.2 and v1.3 PCB versions, it's now possible to obtain several informations from the sound module.  
-For use this option, we need to add a little [ESP32C3 LCD board](https://www.google.com/search?client=firefox-b-d&q=ESP32C3+LCD) connected to the Teensy bu a serial port.  
-This board use the ESPNOW protocol for communicate with the [ESP32 coder](https://github.com/pierrotm777/ESP32-BURC-Screen) screen.  
-See [here]() for more informations.  
+This ESP32 version integrates an ESPNOW connection to communicate with the screen of the ESP32 programmer.   
 
 ## Temperatures feature
-With the v1.2 and v1.3 PCB versions, it's now possible to send telemetry to a RC transmitter.  
+It's now possible to send telemetry to a RC transmitter.  
 Three sensors are simulated:
-  - Battery of your model, (by default 3S with R12=33K (PCB v1.2) or R9=33K (PCB v1.3).  
-  - Teensy temperature (no need specific hardware).  
-  - Tank temperature (need to connect a DS18B20 to Teensy pin 27, GND and 3.3v).  
-![](https://github.com/pierrotm777/SoundModule_Teensy4.0-version/blob/main/ds18b20_wiring.png) ![](https://github.com/pierrotm777/SoundModule_Teensy4.0-version/blob/main/ds18b20_Teensy.jpg)  
+  - Battery of your model, (by default 3S with R8=33K.  
+  - Esp32 CPU temperature.  
+  - Tank smoke temperature (need Attiny85 Smoke Engine board).  
+
   Versions telemetries usable are:
     - S-PORT (D16 Frsky)  
     - HUB (old D8 Frsky)  
