@@ -1,5 +1,5 @@
 # SoundModule_Esp32_MycaMini
-This new board is based on the [Esp32 4.0 sound card project](https://github.com/pierrotm777/https://github.com/pierrotm777/SoundModule_Esp32_MycaMini).  
+This new board is based on the [Teensy 4.0 sound card project](https://github.com/pierrotm777/https://github.com/pierrotm777/SoundModule_Esp32_MycaMini).  
 The software behaves the same way, but the board is based on an ESP32 S3 Mini 8Mb PSRAM, which is 3 times cheaper than the Esp32 4.0 (around 15€).  
 The board is also much smaller and will therefore fit more easily into small RC vehicles.  
 
