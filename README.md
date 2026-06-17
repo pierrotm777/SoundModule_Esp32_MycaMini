@@ -57,13 +57,6 @@ A custom printed circuit board has been created. We are currently at version v1.
   </tr>
 </table>
 
-Creating a new engine sound:  
-Simply retrieve the desired engine sound to create a startup sound, an operating sound, and a shutdown sound.  
-The more realistic the original sound, the more appealing the result will be.  
-So, when the engine starts, you hear the typical sound of an engine hesitating, followed by the normal sound with variations in frequency and speed.  
-Then, when the engine stick returns to center, after 5 to 10 seconds (adjustable), the shutdown sound is played.  
-
-
 ## Three modes
 Three modes are possibles:
 - Use [X-Any/BURC encoder](https://p-loussouarn-free-fr.translate.goog/arduino/exemple/RCUL/RCUL.html?_x_tr_sch=http&_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en) fonctions by RC-Navy, thanks to him.  
@@ -120,14 +113,6 @@ Depending on the receiver used, it's possible to connect the sound module in dif
 - CRSF  
 
 
-
-## PCB versions
-<table cellspacing=0>
-  <tr>
-    <td align=center width=400><a href="https://github.com/pierrotm777/https://github.com/pierrotm777/SoundModule_Esp32_MycaMini/tree/main/Hardware/V1.0/README.md"><img src="https://github.com/pierrotm777/https://github.com/pierrotm777/SoundModule_Esp32_MycaMini/blob/main/Hardware/V1.0/Sound_Myca_Esp32-Top3d_v1.0.png" border="0" name="submit" title="Sound Module" alt="Sound Module v1.0"/></a><br><b>V1.0</td>
-  </tr>
-</table>
-
 ## WAV Sounds
 Play **16-bit PCM 44100Hz Stereo** WAV audio samples at variable playback rates on Esp32.  
 - Note : this library only works with signed 16-bit integer samples. Floating point samples will not play.  
@@ -137,21 +122,26 @@ Play **16-bit PCM 44100Hz Stereo** WAV audio samples at variable playback rates 
 It's possible to select several motors.  
 Two sound motors systems are possibles:
   - CLASSIC:  
-	The module can list all sound's motor found into the SD card [ENGINES folder](https://github.com/pierrotm777/https://github.com/pierrotm777/SoundModule_Esp32_MycaMini/tree/main/SD_Wav_Files/ENGINES).  
+	The module can list all sound's motor found into the SD card [ENGINES Classic](/SD_ESP32/ENGINES).  
 	**ENG.LIST = DSL-LTL, DSL-V12, VAPEUR, DSL-OLD, DSL-120, DSL-TURB, DSL-TUG, SCAN-V12, DSL-BIG, DSL-180, DIESEL7, SCAN-250, CAT-C32, BF109**  
 	Each motor use:  
 	- A start file, ex:DSL-LTL_STA.  
 	- An idle file, ex:DSL-LTL_IDL.  
 	- A stop file, ex:DSL-LTL_STP.  
   - BEIER:
-	The module can list all sound's motor found into the SD card [ENGINES folder](https://github.com/pierrotm777/https://github.com/pierrotm777/SoundModule_Esp32_MycaMini/tree/main/SD_Wav_Files/ENGINES/BEIER).  
+	The module can list all sound's motor found into the SD card [ENGINES Beier format](/SD_ESP32/ENGINES/BEIER).  
 
-It's possible to add new motor's sounds.  
+Creating a new engine sound:  
+Simply retrieve the desired engine sound to create a startup sound, an operating sound, and a shutdown sound.  
+The more realistic the original sound, the more appealing the result will be.  
+So, when the engine starts, you hear the typical sound of an engine hesitating, followed by the normal sound with variations in frequency and speed.  
+Then, when the engine stick returns to center, after 5 to 10 seconds (adjustable), the shutdown sound is played.  
+ 
 The better way, for me, is to use [Audacity](https://www.audacityteam.org) for cut all sound find and save it as 16bits PCM 44100Hz wav file.  
 
 ### All other sounds
 All other other sounds will have to be copied under the main path.  
-See our sounds [here](https://github.com/pierrotm777/https://github.com/pierrotm777/SoundModule_Esp32_MycaMini/tree/main/SD ESP32_PIERRE).  
+See our sounds [here](/SD_ESP32).  
 You can change the **USER1.wav to USER16.wav by your own sounds**.  
 
 ## Upload a firmware
