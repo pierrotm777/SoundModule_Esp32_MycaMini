@@ -98,7 +98,7 @@ The buttons 9 and 10 up or down the volume's sounds.
 
 <table cellspacing=0>
   <tr>
-    <td align=center width=400><a href="https://github.com/pierrotm777/https://github.com/pierrotm777/SoundModule_Esp32_MycaMini/blob/main/10ButtonsKeyboard.md"><img src="10buttons_sch.png" border="0" name="submit" title="Sound Module" alt="Sound Module"/></a><br><b>KeyBoard 10 buttons</td>
+    <td align=center width=400><a href="10ButtonsKeyboard.md"><img src="10buttons_sch.png" border="0" name="submit" title="Sound Module" alt="Sound Module"/></a><br><b>KeyBoard 10 buttons</td>
   </tr>
 </table>
 
