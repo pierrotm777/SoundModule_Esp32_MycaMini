@@ -1,0 +1,94 @@
+{
+  "USER10.wav": {
+    "label": "HALAMER",
+    "priority": 2
+  },
+  "USER11.wav": {
+    "label": "SEXEDUP",
+    "priority": 2
+  },
+  "USER12.wav": {
+    "label": "SUGAR",
+    "priority": 2
+  },
+  "USER13.wav": {
+    "label": "SHADEOFPALE",
+    "priority": 2
+  },
+  "USER14.wav": {
+    "label": "LIFEOFMARS",
+    "priority": 2
+  },
+  "USER15.wav": {
+    "label": "MURATLANTIQUE",
+    "priority": 2
+  },
+  "USER16.wav": {
+    "label": "FOLIEGRANDEUR",
+    "priority": 2
+  },
+  "USER1.wav": {
+    "label": "CLAXON",
+    "priority": 2
+  },
+  "USER2.wav": {
+    "label": "BRUME",
+    "priority": 2
+  },
+  "USER3.wav": {
+    "label": "MOUETTE",
+    "priority": 2
+  },
+  "USER4.wav": {
+    "label": "DAUPHIN",
+    "priority": 2
+  },
+  "USER5.wav": {
+    "label": "FRUITPASSION",
+    "priority": 2
+  },
+  "USER6.wav": {
+    "label": "NIGHTFEVER",
+    "priority": 2
+  },
+  "USER7.wav": {
+    "label": "FROMMETOYOU",
+    "priority": 2
+  },
+  "USER8.wav": {
+    "label": "FOREVERALWAYS",
+    "priority": 2
+  },
+  "USER9.wav": {
+    "label": "ALLTIMEWORLD",
+    "priority": 2
+  },
+  "RANDOM_1.wav": {
+    "label": "MOUETTE",
+    "priority": 1
+  },
+  "RANDOM_2.wav": {
+    "label": "MOUETTE2",
+    "priority": 1
+  },
+  "RANDOM_3.wav": {
+    "label": "MOUETTE3",
+    "priority": 1
+  },
+  "RANDOM_4.wav": {
+    "label": "MOUETTE4",
+    "priority": 1
+  },
+  "RANDOM_5.wav": {
+    "label": "LONG_7",
+    "priority": 1
+  },
+  "RANDOM_6.wav": {
+    "label": "SHORT_1",
+    "priority": 1
+  },
+  "RANDOM_7.wav": {
+    "label": "DAUPHIN",
+    "priority": 1
+  }
+}

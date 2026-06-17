@@ -1,0 +1,466 @@
+{
+  "defaults": {
+    "ENGINE": {
+      "volume": 1.00,
+      "pitch": 1.0,
+      "priority": 255
+    },
+
+    "RANDOM": {
+      "volume": 1.00,
+      "pitch": 1.0,
+      "priority": 40
+    },
+
+    "WARNING": {
+      "volume": 1.00,
+      "pitch": 1.0,
+      "priority": 240
+    },
+
+    "ACTION": {
+      "volume": 1.00,
+      "pitch": 1.0,
+      "priority": 120
+    },
+
+    "USER": {
+      "volume": 1.00,
+      "pitch": 1.0,
+      "priority": 120
+    },
+
+    "AMBIENT": {
+      "volume": 1.00,
+      "pitch": 1.0,
+      "priority": 30
+    },
+
+    "CANNON": {
+      "volume": 1.00,
+      "pitch": 1.0,
+      "priority": 220
+    },
+
+    "HORN": {
+      "volume": 1.00,
+      "pitch": 1.0,
+      "priority": 180
+    },
+
+    "SHORT": {
+      "volume": 1.00,
+      "pitch": 1.0,
+      "priority": 120
+    },
+
+    "LONG": {
+      "volume": 1.00,
+      "pitch": 1.0,
+      "priority": 120
+    },
+
+    "BELL": {
+      "volume": 1.00,
+      "pitch": 1.0,
+      "priority": 100
+    },
+
+    "ALARM": {
+      "volume": 1.00,
+      "pitch": 1.0,
+      "priority": 240
+    },
+
+    "FAILSAFE": {
+      "volume": 1.00,
+      "pitch": 1.0,
+      "priority": 255
+    }
+  },
+
+  "sounds": {
+
+    "/FIXEDSOUND/ALARM.wav": {
+      "default": "ALARM"
+    },
+
+    "/FIXEDSOUND/ALARM_1.wav": {
+      "default": "ALARM"
+    },
+
+    "/FIXEDSOUND/ALARM_2.wav": {
+      "default": "ALARM"
+    },
+
+    "/FIXEDSOUND/ALARM_3.wav": {
+      "default": "ALARM"
+    },
+
+    "/FIXEDSOUND/ALARM_4.wav": {
+      "default": "ALARM"
+    },
+
+    "/FIXEDSOUND/AMBIENT.wav": {
+      "default": "AMBIENT"
+    },
+
+    "/FIXEDSOUND/ANCRE_IDLE.wav": {
+      "volume": 0.60,
+      "pitch": 1.0,
+      "priority": 120
+    },
+
+    "/FIXEDSOUND/ANCRE_START.wav": {
+      "volume": 1.00,
+      "pitch": 1.0,
+      "priority": 150
+    },
+
+    "/FIXEDSOUND/ANCRE_STOP.wav": {
+      "volume": 1.00,
+      "pitch": 1.0,
+      "priority": 150
+    },
+
+    "/FIXEDSOUND/BELL.wav": {
+      "default": "BELL"
+    },
+
+    "/FIXEDSOUND/CANNON.wav": {
+      "default": "CANNON"
+    },
+
+    "/FIXEDSOUND/FAILSAFE.wav": {
+      "default": "FAILSAFE"
+    },
+
+    "/FIXEDSOUND/HORN_IDLE.wav": {
+      "default": "HORN"
+    },
+
+    "/FIXEDSOUND/HORN_START.wav": {
+      "default": "HORN"
+    },
+
+    "/FIXEDSOUND/HORN_STOP.wav": {
+      "default": "HORN"
+    },
+
+    "/FIXEDSOUND/LONG_1.wav": {
+      "default": "LONG"
+    },
+
+    "/FIXEDSOUND/LONG_2.wav": {
+      "default": "LONG"
+    },
+
+    "/FIXEDSOUND/LONG_3.wav": {
+      "default": "LONG"
+    },
+
+    "/FIXEDSOUND/LONG_4.wav": {
+      "default": "LONG"
+    },
+
+    "/FIXEDSOUND/LONG_5.wav": {
+      "default": "LONG"
+    },
+
+    "/FIXEDSOUND/LONG_6.wav": {
+      "default": "LONG"
+    },
+
+    "/FIXEDSOUND/LONG_7.wav": {
+      "default": "LONG"
+    },
+
+    "/FIXEDSOUND/LONG_8.wav": {
+      "default": "LONG"
+    },
+
+    "/FIXEDSOUND/MGSTART.wav": {
+      "volume": 1.00,
+      "pitch": 1.0,
+      "priority": 200
+    },
+
+    "/FIXEDSOUND/MGSTOP.wav": {
+      "volume": 1.00,
+      "pitch": 1.0,
+      "priority": 200
+    },
+
+    "/FIXEDSOUND/SHORT_1.wav": {
+      "default": "SHORT"
+    },
+
+    "/FIXEDSOUND/SHORT_2.wav": {
+      "default": "SHORT"
+    },
+
+    "/FIXEDSOUND/SHORT_3.wav": {
+      "default": "SHORT"
+    },
+
+    "/FIXEDSOUND/SHORT_4.wav": {
+      "default": "SHORT"
+    },
+
+    "/FIXEDSOUND/SHORT_5.wav": {
+      "default": "SHORT"
+    },
+
+    "/FIXEDSOUND/SHORT_6.wav": {
+      "default": "SHORT"
+    },
+
+    "/FIXEDSOUND/SHORT_7.wav": {
+      "default": "SHORT"
+    },
+
+    "/FIXEDSOUND/SHORT_8.wav": {
+      "default": "SHORT"
+    },
+
+    "/RANDOM/1_MOUETTE.wav": {
+      "default": "RANDOM"
+    },
+
+    "/RANDOM/2_MOUETTE2.wav": {
+      "default": "RANDOM"
+    },
+
+    "/RANDOM/3_MOUETTE3.wav": {
+      "default": "RANDOM"
+    },
+
+    "/RANDOM/4_MOUETTE4.wav": {
+      "default": "RANDOM"
+    },
+
+    "/USERSOUND/3_SEAGULL.wav": {
+      "default": "RANDOM"
+    },
+
+    "/USERSOUND/4_RING.wav": {
+      "volume": 1.00,
+      "pitch": 1.0,
+      "priority": 120
+    },
+
+    "/USERSOUND/5_BELL.WAV": {
+      "default": "BELL"
+    },
+
+    "/USERSOUND/9_SEAGULL.wav": {
+      "default": "RANDOM"
+    },
+
+    "/USERSOUND/10_ALARM.wav": {
+      "default": "ALARM"
+    },
+
+    "/USERSOUND/11_SHORT.wav": {
+      "default": "SHORT"
+    },
+
+    "/USERSOUND/12_LONG.wav": {
+      "default": "LONG"
+    },
+
+    "/WARNING/ALARM1.wav": {
+      "default": "WARNING"
+    },
+
+    "/WARNING/ALARM2.wav": {
+      "default": "WARNING"
+    },
+
+    "/WARNING/ALARM3.wav": {
+      "default": "WARNING"
+    },
+
+    "/WARNING/ALARM4.wav": {
+      "default": "WARNING"
+    },
+
+    "/ACTION/1_ACTION.wav": {
+      "default": "ACTION"
+    }
+  },
+
+"engines": {
+
+  "CAT-C32": {
+    "startVolume": 0.80,
+    "idleVolume": 0.80,
+    "stopVolume": 0.80,
+    "minPitch": 1.00,
+    "maxPitch": 1.50,
+    "genericStopMs": 1800
+  },
+
+  "CORV": {
+    "startVolume": 0.80,
+    "idleVolume": 0.80,
+    "stopVolume": 0.80,
+    "minPitch": 1.00,
+    "maxPitch": 1.50,
+    "genericStopMs": 1800
+  },
+
+  "DIESEL7": {
+    "startVolume": 0.80,
+    "idleVolume": 0.80,
+    "stopVolume": 0.80,
+    "minPitch": 1.00,
+    "maxPitch": 1.50,
+    "genericStopMs": 1800
+  },
+
+  "DSL-120": {
+    "startVolume": 0.80,
+    "idleVolume": 0.80,
+    "stopVolume": 0.80,
+    "minPitch": 1.00,
+    "maxPitch": 1.50,
+    "genericStopMs": 1800
+  },
+
+  "DSL-180": {
+    "startVolume": 0.80,
+    "idleVolume": 0.80,
+    "stopVolume": 0.80,
+    "minPitch": 1.00,
+    "maxPitch": 1.50,
+    "genericStopMs": 1800
+  },
+
+  "DSL-BIG": {
+    "startVolume": 0.80,
+    "idleVolume": 0.80,
+    "stopVolume": 0.80,
+    "minPitch": 1.00,
+    "maxPitch": 1.50,
+    "genericStopMs": 1800
+  },
+
+  "DSL-EC14": {
+    "startVolume": 0.80,
+    "idleVolume": 0.80,
+    "stopVolume": 0.80,
+    "minPitch": 1.00,
+    "maxPitch": 1.50,
+    "genericStopMs": 1800
+  },
+
+  "DSL-LTL": {
+    "startVolume": 0.80,
+    "idleVolume": 0.80,
+    "stopVolume": 0.80,
+    "minPitch": 1.00,
+    "maxPitch": 1.50,
+    "genericStopMs": 1800
+  },
+
+  "DSL-OLD": {
+    "startVolume": 0.80,
+    "idleVolume": 0.80,
+    "stopVolume": 0.80,
+    "minPitch": 1.00,
+    "maxPitch": 1.50,
+    "genericStopMs": 1800
+  },
+
+  "DSL-TUG": {
+    "startVolume": 0.80,
+    "idleVolume": 0.80,
+    "stopVolume": 0.80,
+    "minPitch": 1.00,
+    "maxPitch": 1.50,
+    "genericStopMs": 1800
+  },
+
+  "DSL-TURB": {
+    "startVolume": 0.80,
+    "idleVolume": 0.80,
+    "stopVolume": 0.80,
+    "minPitch": 1.00,
+    "maxPitch": 1.50,
+    "genericStopMs": 1800
+  },
+
+  "DSL-V12": {
+    "startVolume": 0.80,
+    "idleVolume": 0.80,
+    "stopVolume": 0.80,
+    "minPitch": 1.00,
+    "maxPitch": 1.50,
+    "genericStopMs": 1800
+  },
+
+  "FERRY": {
+    "startVolume": 0.80,
+    "idleVolume": 0.80,
+    "stopVolume": 0.80,
+    "minPitch": 1.00,
+    "maxPitch": 1.50,
+    "genericStopMs": 1800
+  },
+
+  "MOTOR": {
+    "startVolume": 0.80,
+    "idleVolume": 0.80,
+    "stopVolume": 0.80,
+    "minPitch": 1.00,
+    "maxPitch": 1.50,
+    "genericStopMs": 1800
+  },
+
+  "SCAN-250": {
+    "startVolume": 0.80,
+    "idleVolume": 0.80,
+    "stopVolume": 0.75,
+    "minPitch": 1.00,
+    "maxPitch": 1.50,
+    "genericStopMs": 1800
+  },
+
+  "SCAN-V12": {
+    "startVolume": 0.80,
+    "idleVolume": 0.80,
+    "stopVolume": 0.75,
+    "minPitch": 1.00,
+    "maxPitch": 1.50,
+    "genericStopMs": 1800
+  },
+
+  "SMALL": {
+    "startVolume": 0.80,
+    "idleVolume": 0.80,
+    "stopVolume": 0.60,
+    "minPitch": 1.00,
+    "maxPitch": 1.50,
+    "genericStopMs": 1800
+  },
+
+  "VAPEUR": {
+    "startVolume": 0.80,
+    "idleVolume": 0.80,
+    "stopVolume": 0.80,
+    "minPitch": 1.00,
+    "maxPitch": 1.50,
+    "genericStopMs": 1800
+  },
+
+  "YATCH": {
+    "startVolume": 0.80,
+    "idleVolume": 0.80,
+    "stopVolume": 0.80,
+    "minPitch": 1.00,
+    "maxPitch": 1.50,
+    "genericStopMs": 1800
+  }
+}
+}
